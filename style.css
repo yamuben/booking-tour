@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+.topnav{
+    z-index: 5;
+    /* position:fixed; */
+    width: 100%;
+    /* height: 100px; */
+    background:rgba(0, 0, 73, 0.609);
+    padding:15px 40px 15px 40px;
+    display: flex;
+    box-shadow: 0px 5px rgba(110, 107, 107, 0.623);
+
+}
+.logo{
+    width: 10%;
+    height: 70px;
+    /* background:whitesmoke; */
+    text-align: center;
+}
+.navbar-right{
+    height:70px;
+    width:90%;
+    /* background:#d8fbff; */
+    overflow: hidden;
+}
+.topnav a{
+    color: white;
+    padding:20px;
+    font-size: larger;
+    /* background:green; */
+    float:right;
+    text-decoration: none;
+    height: 100%;
+}
+
+.topnav a:hover{
+    background:rgb(0, 22, 82);
+
+}
+
+
+.home-container{
+    z-index: -2;
+    /* position: fixed; */
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    padding:40px;
+    background:rgba(0, 0, 0, 0.404);
+} 
+body{
+    background:url(./images/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.home-container h1{
+    font-size:60px;
+    color:white;
+    padding-bottom: 40px;
+
+}
+
+.quote-div{
+    height:50vh;
+    width: 35%;
+    background: rgba(224, 224, 255, 0.733);
+    float: right;
+    margin-top:50px;
+    padding: 25px;
+    position: relative; 
+    box-shadow: 0px 0px 10px 2px rgba(98, 184, 255, 0.5)
+}
+.quote-div p{ 
+    margin-top:15px
+}
+.quote-div button{
+    margin-top: 0px;
+}
+  button{
+    border-radius: 10px;
+    text-align: center;
+    margin-top:25px;
+    width: 80%;
+    padding:12px;
+    font-size:20px;
+    font-weight: 700;
+    color: rgb(51, 68, 98);
+
+}
+
+.tour-section-container{
+    width: 100%;
+    min-height: 80vh;
+    padding: 10px 40px 10px 40px;
+    background: white;
+}
+
+.book-sort-div{
+    width: 100%;
+    height:80vh;
+    /* background:blue; */
+    padding-top: 30px;
+    display:flex;
+}
+
+.book-sort{
+    width: 45%;
+    height: 100%;
+    /* background:yellow */
+}
+.book-sort h1{
+    font-size:50px;
+    color: rgb(13, 0, 70);
+
+}
+.book-sort label{
+    font-size:30px;
+    font-weight:bolder;
+    margin-top: 50px;
+}
+select{
+    font-size:20px;
+    width:80%;
+    padding:10px;
+
+}
+ .book-sort button{
+     float:right;
+ }
+
+ .signup-form{
+     width: 35%;
+     height:60vh;
+     background:white;
+     margin:auto;
+     padding:20px
+
+ }
+h2{
+    padding-bottom: 20px;
+}
+ .signup-form input {
+     padding:10px;
+     margin:5px;
+     width: 70%;
+     float:right;
+ }
+
+ .signup-form label {
+
+    padding:10px;
+    margin-top:10px;
+    /* width: 75%; */
+    float:left;
+ }
+ .quote-div button {
+     margin:32% 0% 0% -35%;
+     position:absolute;
+ }
+
+ .trips{
+     background:whitesmoke;
+ }
+ 
+ .garelly-div{
+     width:35%;
+     min-height:500px;
+     background:blanchedalmond
+ }
